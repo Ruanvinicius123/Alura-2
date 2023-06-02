@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal:'Inter';
+    --botao-azul-efeito:#3c92fa;
 
 }
 
@@ -73,7 +74,7 @@ font-weight: 700;
 }
 .secundario__imagem {
 
-    width: 80%;
+    widht: 80%;
 
 }
 
@@ -92,5 +93,18 @@ margin-bottom: 0.1em;
 }
 .descricao__texto{
     color: var(--cinza-secundario);
+
+}
+
+
+.secundario__botao{
+
+    display: inline-block;
+    margin-top: 1em;
+    
+}
+
+.container__descricao{
+    padding: 2em;
 
 }
